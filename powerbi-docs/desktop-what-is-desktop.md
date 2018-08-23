@@ -31,7 +31,7 @@ Os usos mais comuns para o **Power BI Desktop** são os seguintes:
 * Criar relatórios que são conjuntos de visuais em uma ou mais páginas do relatório
 * Compartilhar relatórios com outras pessoas usando o **serviço do Power BI**
 
-As pessoas responsáveis por essas tarefas geralmente são consideradas *analistas de dados* (às vezes, chamados de *analistas*) ou profissionais de Business Intelligence (conhecidos como *criadores de relatórios*). No entanto, muitas pessoas que não se consideram analistas ou criadores de relatórios usam o **Power BI Desktop** para criar relatórios atraentes ou extrair dados de várias fontes e criar modelos de dados, que podem compartilhar com seus colegas de trabalho e organizações.
+As pessoas responsáveis por essas tarefas geralmente são consideradas *analistas de dados* (às vezes, chamados de *analistas de BI*) ou profissionais de Business Intelligence (conhecidos como *Desenvolvedores de Dashboards*). No entanto, muitas pessoas que não se consideram analistas ou desenvolvedores usam o **Power BI Desktop** para criar relatórios atraentes ou extrair dados de várias fontes e criar modelos de dados, que podem compartilhar com seus colegas de trabalho e organizações.
 
 Com o **Power BI Desktop**, é possível criar relatórios complexos e visualmente avançados, usando dados de várias fontes, tudo em um relatório que você pode compartilhar com outras pessoas em sua organização. 
 
@@ -40,7 +40,7 @@ Para começar a usar o **Power BI Desktop**, a primeira etapa é conectar-se aos
 
 ![Obter Dados no Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_02.png)
 
-Quando você seleciona um tipo de dados, o sistema solicita informações, como a URL e as credenciais, necessárias para o Power BI Desktop se conectar à fonte de dados em seu nome.
+Quando você seleciona um tipo de dado, o sistema solicita informações, como a URL e as credenciais, necessárias para o Power BI Desktop se conectar à fonte de dados em seu nome.
 
 ![Conectar-se a um banco de dados SQL Server no Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_03.png)
 
@@ -48,13 +48,13 @@ Depois que você se conectar a uma ou mais fontes de dados, convém transformar 
 
 ## <a name="transform-and-clean-data-create-a-model"></a>Transformar e limpar os dados, criar um modelo
 
-No Power BI Desktop, você pode limpar e transformar dados usando o **Editor de Consultas** interno. Com o Editor de Consultas, é possível fazer alterações nos dados, como alterar um tipo de dados, remover colunas ou combinar dados de várias fontes. É como esculpir: você pode começar com um grande bloco de argila (ou dados), depois remover partes ou adicionar outras conforme o necessário, até que a forma dos dados fique como você deseja. 
+No Power BI Desktop, você pode limpar e transformar dados usando o **Editor de Consultas** interno. Com o Editor de Consultas, é possível fazer alterações nos dados, como alterar um tipo de dado, remover colunas ou combinar dados de várias fontes. É como esculpir: você pode começar com um grande bloco de argila (ou dados), depois remover partes ou adicionar outras conforme o necessário, até que a forma dos dados fique como você deseja. 
 
 ![Editor de Consultas no Power BI Desktop](media/desktop-getting-started/designer_gsg_editquery.png)
 
-Cada etapa que você realiza na transformação de dados (como renomear uma tabela, transformar um tipo de dados ou excluir colunas) é registrada pelo **Editor de Consultas**. Sempre que essa consulta se conectar à fonte de dados, essas etapas serão executadas para que os dados sejam sempre formatados da maneira especificada.
+Cada etapa que você realiza na transformação de dados (como renomear uma tabela, transformar um tipo de dado ou excluir colunas) é registrada pelo **Editor de Consultas**, onde é possível visualizar e editar cada ação, através do painel **Passos Aplicados**. Sempre que essa consulta se conectar à fonte de dados, essas etapas serão executadas para que os dados sejam sempre formatados da maneira especificada.
 
-A imagem a seguir mostra o painel **Config. Consulta** para uma consulta que foi formatada e transformada em um modelo.
+A imagem a seguir mostra o painel **Passos Aplicados** para uma consulta que foi formatada e transformada em um modelo.
 
  ![](media/desktop-getting-started/shapecombine_querysettingsfinished.png)
 
