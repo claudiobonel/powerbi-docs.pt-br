@@ -39,13 +39,13 @@ Depois de instalar **Power BI Desktop**, inicie o aplicativo para que ele esteja
 
 ## <a name="connect-to-data"></a>Conectar-se a dados
 
-Com o **Power BI Desktop**, você pode se conectar a muitos tipos de dados diferentes. Você pode se conectar a fontes de dados básicos, como a um arquivo do Microsoft Excel, bem como a serviços online que contêm todos os tipos de dados, como o Salesforce, o Microsoft Dynamics, o Armazenamento de Blobs do Azure e muito mais. 
+Com o **Power BI Desktop**, você pode se conectar a diferentes tipos de dados. Você pode se conectar a fontes de dados básicos, como a um arquivo do Microsoft Excel, bem como a serviços online que contêm todos os tipos de dados, como o Salesforce, o Microsoft Dynamics, o Armazenamento de Blobs do Azure e muito mais. 
 
 Para se conectar a dados, selecione **Obter Dados** na faixa de opções **Início**.
 
 ![Obter Dados](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
-É exibida a janela **Obter Dados**, na qual você pode escolher entre várias fontes de dados a que o **Power BI Desktop** pode se conectar. Neste início rápido, usamos a pasta de trabalho do Excel que você baixou, descrita a seção de *Pré-requisitos* no início deste artigo. 
+Será exibida a janela **Obter Dados**, na qual você pode escolher entre várias fontes de dados a que o **Power BI Desktop** pode se conectar. Neste início rápido, usamos a pasta de trabalho do Excel que você baixou, descrita a seção de *Pré-requisitos* no início deste artigo. 
 
 ![Obter Dados](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
 
@@ -55,7 +55,7 @@ Como se trata de um arquivo do Excel, selecionamos **Excel** na janela **Obter D
 
 ![Obter Dados](media/desktop-quickstart-connect-to-data/qs-connect-data_04.png)
 
-O **Power BI Desktop**, então, carrega a pasta de trabalho e lê seu conteúdo e mostra os dados disponíveis no arquivo usando a janela **Navegador**, em que você pode escolher quais dados deseja carregar no Power BI Desktop. Selecione as tabelas marcando as caixas de seleção ao lado de cada tabela que deseja importar. Nesse caso, importaremos as duas tabelas disponíveis.
+O **Power BI Desktop**, então, carrega a pasta de trabalho, lê seu conteúdo e mostra os dados disponíveis no arquivo usando a janela **Navegador**, em que você pode escolher quais dados deseja carregar no Power BI Desktop. Selecione as tabelas marcando as caixas de seleção ao lado de cada tabela que deseja importar. Nesse caso, importaremos as duas tabelas disponíveis.
 
 ![Obter Dados](media/desktop-quickstart-connect-to-data/qs-connect-data_05.png)
 
